@@ -38,10 +38,10 @@ Feature: Following
 
 ----------------------
 
-Language: JavaScript
+**Language:** JavaScript
 
-Dependencies: jest
+**Dependencies:** jest
 
-How to Build: Navigate to katas-master/starter/js and run "$npm i jest" to install jest if needed, then run "$npm run test" to assess the test suite.
+**How to Build:** Navigate to katas-master/starter/js and run "$npm i jest" to install jest if needed, then run "$npm run test" to assess the test suite.
 
-Description: Using a domain-driven design pattern, I wrote the domain logic for a social networking kata. I chose to use a "User" as the underlying data representation because the functionality required (publishing, viewing, and following) all fell within a typical "User"'s capability. The domain/user folder encapsulates the essential data structure and behaviors needed to implement a "User" and utilizes pure functions for instantiating new immutable "User" states given a parameter. The application/ folder depends on the underlying domain logic and has its infrastructural dependencies injected at runtime, allowing for a clean separation of concerns. The infrastructure/ folder implements the pure functions declared in the domain/user folder and is used to simulate calls from a database with an in-memory storage implementation. I implemented post publishing, timeline viewing, and initial following functionality.
+**Description:** Using a domain-driven design pattern, I wrote the domain logic for a social networking kata. I chose to use a "User" as the underlying data representation because the functionality required (publishing, viewing, and following) all fell within a typical "User"'s capability. The domain/user folder encapsulates the essential data structure and behaviors needed to implement a "User" and utilizes pure functions for instantiating new immutable "User" states given a parameter. The application/ folder depends on the underlying domain logic and has its infrastructural dependencies injected at runtime, allowing for a clean separation of concerns. The infrastructure/ folder implements the pure functions declared in the domain/user folder and is used to simulate calls from a database with an in-memory storage implementation. I implemented post publishing, timeline viewing, and initial following functionality.
